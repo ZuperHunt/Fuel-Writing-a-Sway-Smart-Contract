@@ -9,6 +9,9 @@ Penulis: [Naufal](https://x.com/0xfal)
 > [!TIP]
 > Use **[Gitpod](https://www.gitpod.io)**, see [acknowledgements](https://github.com/ZuperHunt/Fuel-Writing-a-Sway-Smart-Contract#acknowledgements) for the guide, basically you just need an Gitpod account.
 
+> [!WARNING]
+> DO NOT SKIP EVERY STEPS! FOLLOW CLOSELY!
+
 ## Installation
 
 ### Install `rustup`
