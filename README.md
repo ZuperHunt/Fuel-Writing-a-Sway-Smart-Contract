@@ -96,11 +96,11 @@ You'll be asked to input the `password` created earlier.
 forc wallet account new
 ```
 
-Steady lads.. deploying smart contract 🤓\
-You'll be asked to input the `password` created earlier, ater.
+Steady lads.. deploying smart contract 🤓
 ```
 forc deploy --testnet
 ```
+You'll be asked to input the `password` created earlier.\
 You'll be asked to provide the index of account to use for signing, just input the number `0`, then input `y`, and press `enter`.
 
 Finally, you will get back the network endpoint where the contract was deployed, a `Contract ID` and the `block` where the transaction was signed.
