@@ -46,7 +46,7 @@ forc new zuperfuel
 cd zuperfuel
 ```
 
-Edit `src/main.sw` file, clear/delete everything inside.
+Edit `src/main.sw` file by run the command below, clear/delete everything inside.
 ```
 nano src/main.sw
 ```
@@ -94,7 +94,7 @@ forc wallet import
 ```
 
 Next, create a new wallet account. Don't worry, this step will create `index 0` account, which means the same address you uses daily.\
-You'll be asked to input the `password` created earlier.
+Just run the command below, you'll be asked to input the `password` created earlier.
 ```
 forc wallet account new
 ```
