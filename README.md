@@ -1,4 +1,4 @@
-Penulis: [Naufal](https://x.com/0xfal)
+Author: [Naufal](https://x.com/0xfal)
 
 > [!NOTE]
 > **WHAT IS FUEL?**\
