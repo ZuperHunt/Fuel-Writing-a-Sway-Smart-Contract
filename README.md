@@ -12,7 +12,7 @@ Author: [Naufal](https://x.com/0xfal)
 > [!WARNING]
 > DO NOT SKIP EVERY STEPS! FOLLOW CLOSELY!
 
-## Installation
+## Dependencies
 
 ### Install `rustup`
 
@@ -108,13 +108,13 @@ You'll be asked to provide the index of account to use for signing, just input t
 
 Finally, you will get back the network endpoint where the contract was deployed, a `Contract ID` and the `block` where the transaction was signed.
 
-## Help
+# Help
 
 If you have any questions, find us on:\
 [ZuperHunt's Discord server](https://discord.gg/ZuperHunt)\
 [ZuperHunt's X(Twitter)](https://twitter.com/ZuperHunt)
 
-## Acknowledgements
+# Acknowledgements
 
 * [Smart Contract Quickstart](https://docs.fuel.network/guides/contract-quickstart/)
 * [Gitpod-based “Virtual Private Server” Guidebook](https://luthfi0x.notion.site/Gitpod-based-Virtual-Private-Server-Guidebook-a82c45e276ea436986959e83d26b32f8#6f2f73ec3658433b86cf7405b1819d28)
