@@ -12,9 +12,9 @@ Author: [Naufal](https://x.com/0xfal)
 > [!WARNING]
 > DO NOT SKIP EVERY STEPS! FOLLOW CLOSELY!
 
-## Dependencies
+## 1. Dependencies
 
-### Install `rustup`
+### 1.1 Install `rustup`
 
 Proceed with standard installation (default - just press `enter`).
 ```
@@ -26,7 +26,7 @@ Configure your PATH environment variable.
 . "/workspace/.cargo/env"
 ```
 
-### Install `fuelup`
+### 1.2 Install `fuelup`
 
 This will install `forc`, `forc-client`, `forc-fmt`, `forc-lsp`, `forc-wallet` as well as `fuel-core`.
 ```
@@ -38,13 +38,17 @@ Configure your PATH environment variable.
 export PATH="${HOME}/.fuelup/bin:${PATH}"
 ```
 
-## Building Smart Contract
+## 2. Building Smart Contract
+
+### 2.1 Create a new Fuel project
 
 Run the command below to generate a counter contract in Sway.
 ```
 forc new zuperfuel
 cd zuperfuel
 ```
+
+### 2.2 Set up smart contract
 
 Edit `src/main.sw` file by run the command below, clear/delete everything inside.
 ```
@@ -86,7 +90,9 @@ Build the smart contract by run the command below.
 forc build
 ```
 
-## Deploying Smart Contract
+## 3. Deploying Smart Contract
+
+### 3.1 Set up wallet
 
 Import your wallet, input your `mnemonic phrase`, and random `password`.
 ```
@@ -98,6 +104,8 @@ Just run the command below, you'll be asked to input the `password` created earl
 ```
 forc wallet account new
 ```
+
+### 3.2 Deploooyy!
 
 Steady lads.. deploying smart contract 🤓
 ```
